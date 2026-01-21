@@ -1,0 +1,7 @@
+const container = document.querySelector('.container')
+const outer = document.querySelector('.outer')
+const button = document.querySelector('.submit')
+
+container.addEventListener('click', () => {console.log('container clicked')})
+outer.addEventListener('click', () => {console.log('outer clicked')})
+button.addEventListener('click', () => {console.log('button clicked')})
